@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container{
+            background-color: lightcyan;
+            padding: 10px;
+        }
+        .t1{
+            width: 300px;
+            height: 350px;
+            transition: transform 3s linear;
+        }
+        .t1 img{
+            width:100%;
+        }
+        .t1:hover{
+            transform:translate(200px)
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="box t1">
+           <img src="images/t3.png" alt="">
+        </div>
+        <div class="box t2">
+            <p></p>
+        </div>
+        <div class="box t3">
+            <p></p>
+        </div>
+    </section>
+
+</body>
+</html>
